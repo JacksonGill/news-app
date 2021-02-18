@@ -8,4 +8,8 @@ app.use(express.json());
 app.use(express.static('build'));
 app.use(newsRouter);
 
+app.get('/', (_request, response) => {
+  response.sendFile('build/index.html');
+});
+
 module.exports = app;
