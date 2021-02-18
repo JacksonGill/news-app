@@ -208,3 +208,44 @@ main {
     transform: translateX(0);
   }
 }
+
+@media (max-width: 800px) {
+  header {
+    font-size: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+  .title h2 {
+    font-size: 1.4rem;
+    margin: 1rem 0 2rem 0;
+    padding-bottom: 0.5rem;
+  }
+  main {
+    display: block;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .news-1 {
+    width: 92%;
+    height: 110vh;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+
+  .news-2 {
+    margin-top: 2rem;
+    width: 92%;
+    height: 110vh;
+    padding: 1rem;
+    margin: auto;
+  }
+  .news-1:hover {
+    transform: none;
+  }
+  .news-2:hover {
+    transform: none;
+  }
+}
