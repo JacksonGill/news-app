@@ -9,7 +9,7 @@ app.use(express.static('build'));
 app.use(newsRouter);
 
 app.get('/', (_request, response) => {
-  response.sendFile('build/index.html');
+  response.sendFile('build/index.html', { route: __dirname });
 });
 
 module.exports = app;
