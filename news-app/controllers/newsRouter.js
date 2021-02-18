@@ -10,7 +10,6 @@ newsRouter.get('/news', (_request, response) => {
       language: 'en',
     })
     .then((news) => {
-      console.log(news.articles);
       response.send(news.articles);
     });
 });
