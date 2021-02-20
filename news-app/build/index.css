@@ -213,13 +213,12 @@ main {
   header {
     font-size: 1rem;
   }
-
   header h1 {
     font-size: 1.8rem;
   }
   .title h2 {
-    font-size: 1.4rem;
-    margin: 1rem 0 2rem 0;
+    font-size: 1.2rem;
+    margin: 1rem 0 0.8rem 0;
     padding-bottom: 0.5rem;
   }
   main {
@@ -234,7 +233,6 @@ main {
     margin: auto;
     margin-bottom: 4rem;
   }
-
   .news-2 {
     margin-top: 2rem;
     width: 92%;
@@ -247,5 +245,10 @@ main {
   }
   .news-2:hover {
     transform: none;
+  }
+  .content p {
+    font-size: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
